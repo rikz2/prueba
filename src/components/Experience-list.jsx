@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 
 const dataExperience = [
   { name: 'Agency x', id: 0, description: 'description about the job and functions',date:'2 de mayo 2023 - 12 abril 2024' },

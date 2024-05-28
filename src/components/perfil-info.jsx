@@ -1,5 +1,4 @@
 import {useState } from 'react';
-import '../App.css';
 import AcademyList from './Academy-list';
 import ProjectList from './Project-list';
 import ExperienceList from './Experience-list';

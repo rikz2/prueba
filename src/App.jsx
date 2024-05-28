@@ -1,5 +1,5 @@
-import './App.css'
 import PerfilInfo from './components/perfil-info'
+import './index.css'
 
 function App() {
 

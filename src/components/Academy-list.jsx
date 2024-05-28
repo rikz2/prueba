@@ -1,5 +1,4 @@
 import React from 'react';
-import '../App.css';
 
 const dataAcademy = [
   { name: 'Academy x', id: 0, description: 'Title Design University',date:'2 de mayo' },
