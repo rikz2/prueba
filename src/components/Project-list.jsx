@@ -5,22 +5,22 @@ const dataProject = [
     name: "Project x",
     id: 0,
     description: "Some description about the project x",
-    // image:
-    //   "https://cdnb.artstation.com/p/assets/images/images/060/791/179/medium/marta-nael-atraxa.jpg?1679336657",
+    image:
+      "https://cdnb.artstation.com/p/assets/images/images/060/791/179/medium/marta-nael-atraxa.jpg?1679336657",
   },
   {
     name: "Project y",
     id: 1,
     description: "Some description about the project y",
-    // image:
-    //   "https://cdnb.artstation.com/p/assets/images/images/048/250/731/medium/marta-nael-422157-final-martanael.jpg?1649594583",
+    image:
+      "https://cdnb.artstation.com/p/assets/images/images/048/250/731/medium/marta-nael-422157-final-martanael.jpg?1649594583",
   },
   {
     name: "Project z",
     id: 2,
     description: "Some description about the project z",
-    // image:
-    //   "https://cdna.artstation.com/p/assets/images/images/044/224/910/medium/marta-nael-419522-final-martanael.jpg?1639427349",
+    image:
+      "https://cdna.artstation.com/p/assets/images/images/044/224/910/medium/marta-nael-419522-final-martanael.jpg?1639427349",
   },
 ];
 
@@ -41,7 +41,7 @@ function ProjectList() {
             </p>
           </div>
           <div
-          // style={{backgroundImage: `url(${project.image})`}}
+          style={{backgroundImage: `url(${project.image})`}}
             className="bg-cover bg-no-repeat bg-center object-cover h-40 h-max-32 w-1/2"
           ></div>
         </div>
